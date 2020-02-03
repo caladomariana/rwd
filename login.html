@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Metadados -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Mariana Calado">
+		<meta name="description" content="Design Gráfio e Multimédia">
+		<meta name="keywords" content="ESAD.CR, Artes, Design Gráfico e Multimédia, IPLeiria">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="PNG/ipl.png">
+		<!-- Fonts -->
+		<link rel="stylesheet" href="fontawesome/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/search.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<!--HTML -->
+		<link rel="stylesheet" type="text/HTML" href="Site/login.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/curso.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/info.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/eventos.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/onde.html">
+		<!-- JS -->
+		<script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="crossorigin="anonymous">
+	    </script>
+		<title>Design Gráfico e Multimédia</title>
+	</head>
+	<body>
+		<img id="rect" src="PNG/fundo.png" width="100%" height="100%">
+		<header>
+			<nav>
+				<section>
+					<img id="menupng" src="PNG/menu.png" width="100%" height="100%" onclick="openNav()"></a>
+					<div id="sidebarMenu">
+						<div class="sair">
+							<img id="sair" src="PNG/sair.png" width="100%" height="100%" onclick="closeNav()">
+						</div>
+						<ul id="sidebarMenuInner">
+							<li>
+								<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="login.html">Login</a>
+					        </li>
+					        <li>
+								<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="perfil.html">Perfil</a>
+					        </li>
+					        <li>
+					        	<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="curso.html">Curso</a>
+					        </li>
+					        <li>
+					        	<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="eventos.html">Eventos</a>
+					        </li>
+					        <li>
+					        	<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="info.html">Informações</a>
+					        </li>
+					        <li>
+					        	<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="onde.html">Onde nos Encontramos</a>
+					        </li>
+				        </ul>
+					</div>
+				</section>
+			</nav>
+			<section>
+				<img id="logo" src="PNG/logo.png" href="index.html" title="Home" width="100%" height="100%" class="center">
+			</section>
+			<nav>
+				<section>
+					<input type="checkbox" class="openSidebarsearch" id="openSidebarsearch">
+					<label for="openSidebarsearch">
+						<img id="search" type="checkbox" src="PNG/search.png" width="100%" height="100%">
+					</label>
+					<div class="search-container">
+						<form class="searchact" action="action_page.php">
+					    <ul>
+					        <input type="text" placeholder="Search.." name="search">
+					        <li id="foto" class="maria">
+					           	<a href="perfil.html"><img id="img" src="images/maria.jpg" width="100%" height="100%"></a>
+					           	<a href="perfil.html"><p id="p1">Maria Dinis</p></a>
+					        </li>
+					        <li id="foto">
+					            <a href="eventos.html"><img id="img" src="images/7.jpg" width="100%" height="100%"></a>
+					           	<a href="eventos.html"><p id="p2">Semana da Empregabilidade</p></a>
+					        </li>
+					        <li id="foto">
+					            <a href="evento1.html"><img id="img" src="images/3.jpg" width="100%" height="100%"></a>
+					           	<a href="evento1.html"><p id="p3">OVNI - Objectos Visuais do Nepal e da Índia</p></a>
+					        </li>
+					    </ul>
+				    </div>
+			    </section>
+	        </nav>
+		</header>
+		<main>
+			<section id="login" class="center">
+				<img id="imglogin" src="PNG/logo.png" width="100%" height="100%" class="center">
+				<article id="submit">
+					<div>
+						<p id="loginname" class="center">Login</p>
+					</div>
+					<form action="action_page.php" method="post">
+						<div class="submit">
+							<label class="center" for="uname"><b>Username</b></label>
+					    	<input type="text" placeholder="Username" name="uname" required>
+					    </div>
+					    <div class="submit">
+					    	<label class="center" for="psw"><b>Password</b></label>
+					    	<input type="password" placeholder="Password" name="psw" required>
+						</div>
+					</form>
+				</article>
+				<article>
+					<button type="submit">LOG</button>
+				</article>
+			</section>
+		</main>
+		<footer>
+			<section class="baixo">
+				<article>
+					<img id="iplfooter" src="PNG/ipl.png" width="100%" height="100%">
+					<div id="divfooter">
+						<div id="nome">
+							<img id="nomeipl" src="PNG/ipleiria.png" width="100%" height="100%">
+						</div>
+						<a href="https://www.ipleiria.pt/estudantes/#encontrar-ipleiria" title="IPLeiria" class="ipl">Site IPLeiria</a>
+					</div>
+				</article>
+				<article>
+					<img id="iplfooter" src="PNG/ipl.png" width="100%" height="100%">
+					<div id="divfooter">
+						<div id="nome">
+							<img id="nomeesad" src="PNG/esad.png" width="100%" height="100%">
+						</div>
+						<a href="https://www.ipleiria.pt/esadcr/" title="ESAD.CR" id="ipl" class="ipl"> Site ESAD.Cr</a>
+					</div>
+				</article>
+			</section>
+			<section class="copy">
+				<p> &copy; Copyright Mariana 2019/2020. Todos os direitos reservados.</p>
+			</section>
+		</footer>
+	</body>
+	<!-- INCLUDE JS/jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script src="js/functions.js">
+	</script>
+	<script>
+		function openNav() {
+		  document.getElementById("sidebarMenu").style.width = "90%";
+		}
+
+		function closeNav() {
+		  document.getElementById("sidebarMenu").style.width = "0%";
+		}
+	</script>
+</html>

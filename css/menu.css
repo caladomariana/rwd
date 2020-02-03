@@ -1,0 +1,238 @@
+@media screen and (max-width:768px){
+
+    #sidebarMenu{
+        height: auto; /* 100% Full-height */
+        width: 0%; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        background-color: #edaa1e; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */        transition: 0.7s; /* 0.5 second transition effect to slide in the sidenav */
+        margin: 5px;
+        padding-bottom: 10px;
+/*        border: 1.5px solid #801624;
+*/        border-radius: 0px 10px 10px 10px;
+    }
+
+    #sidebarMenuInner li{
+        display: grid;
+        grid-template-columns: 50px 150px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #sidebarMenu li a{
+        color: #801624;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    #sidebarMenuInner{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    #sidebarMenuInner img{
+        align-self: center;
+    }
+
+    #menupng{
+        width: auto;
+        height: 50px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        margin-left: 5px;
+        float: left;
+    }
+
+    #logo{
+        width: auto;
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    #search{
+        width: auto;
+        height: 50px;
+        padding: 5px 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+        float: right;
+    }
+
+    .sair{
+        width: 100%;
+        height: 50px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #sair{
+        width: auto;
+        height: 40px;
+        float: left;
+    }
+
+    #iplmenu{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    #sidebarMenu{
+        height: auto; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        background-color: #edaa1e; /* Black*/
+        overflow-x: hidden;  /*Disable horizontal scroll*/ 
+        transition: 0.7s; /* 0.5 second transition effect to slide in the sidenav */
+        margin: 5px;
+        padding-bottom: 10px;
+/*        border: 2px solid #801624;
+*/        border-radius: 0px 10px 10px 10px;
+    }
+
+    #sidebarMenuInner li{
+        display: grid;
+        grid-template-columns: 50px 150px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #sidebarMenu li a{
+        color: #801624;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    #sidebarMenuInner{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    #sidebarMenuInner img{
+        align-self: center;
+    }
+
+    #menupng{
+        width: auto;
+        height: 60px;
+        padding: 5px 5px;
+        margin-top: 5px;
+        margin-left: 10px;
+        float: left;
+    }
+
+    #logo{
+        width: auto;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    #search{
+        width: auto;
+        height: 60px;
+        padding: 5px 5px;
+        margin-right: 10px;
+        margin-top: 5px;
+        float: right;
+    }
+
+    .sair{
+        width: 100%;
+        height: 50px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    #sair{
+        width: auto;
+        height: 50px;
+        float: left;
+    }
+
+    #iplmenu{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    #sidebarMenu{
+        height: auto; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        background-color: #edaa1e; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        transition: 0.7s; /* 0.5 second transition effect to slide in the sidenav */
+        margin: 5px;
+        padding-bottom: 10px;
+/*        border: 2px solid #801624;
+*/        border-radius: 0px 10px 10px 10px;
+    }
+
+    #sidebarMenuInner li{
+        display: grid;
+        grid-template-columns: 50px 200px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #sidebarMenu li a{
+        color: #801624;
+        text-decoration: none;
+        font-size: 40px;
+    }
+
+    #sidebarMenuInner{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #sidebarMenuInner img{
+        align-self: center;
+    }
+
+    #menupng{
+        width: auto;
+        height: 60px;
+        padding: 5px 5px;
+        margin-top: 5px;
+        margin-left: 20px;
+        float: left;
+    }
+
+    #logo{
+        width: auto;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    #search{
+        width: auto;
+        height: 60px;
+        padding: 5px 5px;
+        margin-right: 20px;
+        margin-top: 5px;
+        float: right;
+    }
+
+    .sair{
+        width: 100%;
+        height: 50px;
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+
+    #sair{
+        width: auto;
+        height: 50px;
+        float: left;
+    }
+
+    #iplmenu{
+        width: 40px;
+        height: 40px;
+    }
+}

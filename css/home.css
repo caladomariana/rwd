@@ -1,0 +1,350 @@
+@media screen and (max-width:768px){
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    section #port{
+        display: grid;
+        grid-template-rows: 1fr 75%;
+        margin-bottom: 0; 
+    }
+
+    #slideshow {
+        height: 300px;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+    }
+    
+    #slideshow-container{
+        grid-column-start: 2;
+        padding-top: 10px;
+    }
+
+    .mySlides{
+        width: 200px;
+        height: auto;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 20px;
+        padding-top: 0px;
+    }
+
+    #seta1{
+        width: auto;
+        height: 20px;
+    }
+
+    #seta2{
+        width: auto;
+        height: 20px;
+    }
+
+    #hrmain{
+        color: #801624;
+        width: 100%;
+        height: 0;
+        border-top: 3px dashed;
+        border-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #eventos{
+        display: grid;
+        grid-auto-columns: 2fr;
+        margin-bottom: 30px;
+    }
+
+    .images{
+        border: 1.5px solid #801624;
+        padding-bottom: -100px;
+        margin-top: -20px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .title{
+        z-index: 1;
+        position: inherit;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background-color: white;
+        border: 1.5px solid #801624;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .title #p1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        font-size: 20px;
+        color: #801624;
+        float: left;
+    }
+
+    .title #p2{
+        float: right;
+        color: #801624;
+        text-decoration: none;
+        font-size: 15px;
+        padding-top: 13px;
+    }
+
+    .fotos{
+        z-index: 0;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(4, auto);
+        grid-row-gap: 10px;
+        padding: 40px 0px 40px 0px;
+    }
+
+    #imagem{
+        display: none;
+    }
+
+    .fotos img{
+        width: auto;
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    section #port{
+        display: grid;
+        grid-template-rows: 1fr 75%;
+        margin-bottom: 0; 
+    }
+
+    #slideshow {
+        height: 320px;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: auto;
+    }
+
+    
+    #slideshow-container{
+        grid-column-start: 2;
+        padding-top: 10px;
+    }
+
+    .mySlides{
+        width: 250px;
+        height: auto;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 20px;
+        padding-top: 0px;
+    }
+
+    #seta1{
+        width: auto;
+        height: 30px;
+    }
+
+    #seta2{
+        width: auto;
+        height: 30px;
+        grid-row-start: 2;
+    }
+
+    #hrmain{
+        color: #801624;
+        width: 100%;
+        height: 0;
+        border-top: 3px dashed;
+        border-bottom: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #eventos{
+        display: grid;
+        grid-auto-columns: 2fr;
+        margin-bottom: 50px;
+    }
+
+    .images{
+        border: 2px solid #801624;
+        margin-top: -20px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .title{
+        z-index: 0;
+        position: inherit;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background-color: white;
+        border: 2px solid #801624;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .title #p1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 40px;
+        font-size: 35px;
+        color: #801624;
+        float: left;
+    }
+
+    .title #p2{
+        float: right;
+        color: #801624;
+        text-decoration: none;
+        stroke: 5px solid #801624;
+        font-size: 30px;
+        padding-top: 12px;
+    }
+
+    .fotos{
+        z-index: -0;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(4, auto);
+        grid-gap: 60px;
+        margin: 55px 45px 60px 45px;
+    }
+
+    .imagem.hide{
+        display: none;
+    }
+
+    .fotos img{
+        width: auto;
+        height: 220px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    section #port{
+        display: grid;
+        grid-template-rows: 1fr 75%;
+        margin-bottom: 0; 
+    }
+
+    #slideshow {
+        height: 300px;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: auto;
+    }
+    
+    #slideshow-container{
+        grid-column-start: 2;
+        padding-top: 10px;
+    }
+
+    .mySlides{
+        width: 400px;
+        height: auto;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 50px;
+        padding-top: 0px;
+    }
+
+    #seta1{
+        width: auto;
+        height: 30px;
+    }
+
+    #seta2{
+        width: auto;
+        height: 30px;
+    }
+
+    #hrmain{
+        color: #801624;
+        width: 100%;
+        height: 0;
+        border-top: 3px dashed;
+        border-bottom: 0px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    #eventos{
+        display: grid;
+        grid-auto-columns: 2fr;
+        margin-bottom: 50px;
+    }
+
+    .images{
+        border: 2px solid #801624;
+        margin-top: -20px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .title{
+        z-index: 0;
+        position: inherit;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background-color: white;
+        border: 2px solid #801624;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .title #p1{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding-left: 40px;
+        font-size: 50px;
+        color: #801624;
+        float: left;
+    }
+
+    .title #p2{
+        float: right;
+        color: #801624;
+        text-decoration: none;
+        stroke: 5px solid #801624;
+        font-size: 40px;
+        padding-top: 15px;
+
+    }
+
+    .imagem.hide{
+        visibility: visible;
+    }
+
+    .fotos{
+        z-index: -0;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
+        grid-gap: 70px;
+        margin: 80px 45px 80px 45px;
+    }
+
+    .fotos img{
+        width: auto;
+        height: 300px;
+    }
+}

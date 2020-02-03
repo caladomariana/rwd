@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Metadados -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Mariana Calado">
+		<meta name="description" content="Design Gráfio e Multimédia">
+		<meta name="keywords" content="ESAD.CR, Artes, Design Gráfico e Multimédia, IPLeiria">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="PNG/ipl.png">
+		<!-- Fonts -->
+		<link rel="stylesheet" href="fontawesome/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/search.css">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<!--HTML -->
+		<link rel="stylesheet" type="text/HTML" href="Site/login.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/curso.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/info.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/eventos.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/onde.html">
+		<link rel="stylesheet" type="text/HTML" href="Site/evento1.html">
+		<!-- JS -->
+		<script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="crossorigin="anonymous">
+	    </script>
+		<title>Design Gráfico e Multimédia</title>
+	</head>
+	<body>
+		<img id="rect" src="PNG/fundo.png" width="100%" height="100%">
+		<header>
+			<nav>
+				<section>
+					<img id="menupng" src="PNG/menu.png" width="100%" height="100%" onclick="openNav()"></a>
+					<div id="sidebarMenu" class="sidebarMenu">
+						<div class="sair">
+							<img id="sair" src="PNG/sair.png" width="100%" height="100%" onclick="closeNav()">
+						</div>
+						<ul id="sidebarMenuInner">
+							<li>
+								<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="login.html">Login</a>
+					        </li>
+					        <li>
+								<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="perfil.html">Perfil</a>
+					        </li>
+					        <li>
+					        	<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="curso.html">Curso</a>
+					        </li>
+					        <li>
+					        	<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="eventos.html">Eventos</a>
+					        </li>
+					        <li>
+					        	<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="info.html">Informações</a>
+					        </li>
+					        <li>
+					        	<img id="iplmenu" src="PNG/ipl.png" width="100%" height="100%">
+					        	<a href="onde.html">Onde nos Encontramos</a>
+					        </li>
+				        </ul>
+					</div>
+				</section>
+			</nav>
+			<section>
+				<img id="logo" src="PNG/logo.png" href="index.html" title="Home" width="100%" height="100%" class="center">
+			</section>
+			<nav>
+				<section>
+					<input type="checkbox" class="openSidebarsearch" id="openSidebarsearch">
+					<label for="openSidebarsearch">
+						<img id="search" type="checkbox" src="PNG/search.png" width="100%" height="100%">
+					</label>
+					<div class="search-container">
+						<form class="searchact" action="action_page.php">
+					    <ul>
+					        <input type="text" placeholder="Search.." name="search">
+					        <li id="foto" class="maria">
+					           	<a href="perfil.html"><img id="img" src="images/maria.jpg" width="100%" height="100%"></a>
+					           	<a href="perfil.html"><p id="p1">Maria Dinis</p></a>
+					        </li>
+					        <li id="foto">
+					            <a href="eventos.html"><img id="img" src="images/7.jpg" width="100%" height="100%"></a>
+					           	<a href="eventos.html"><p id="p2">Semana da Empregabilidade</p></a>
+					        </li>
+					        <li id="foto">
+					            <a href="evento1.html"><img id="img" src="images/3.jpg" width="100%" height="100%"></a>
+					           	<a href="evento1.html"><p id="p3">OVNI - Objectos Visuais do Nepal e da Índia</p></a>
+					        </li>
+					    </ul>
+				    </div>
+			    </section>
+	        </nav>
+		</header>
+		<main>
+			<section id="port">
+	          	<article>
+	      		  	<h1>Projetos</h1>
+	          	</alticle>
+	      		<!-- Slideshow container -->
+	          	<div id="slideshow">
+	            	<article>
+	              		<img id="seta2" src="PNG/seta2.png" width="100%" height="100%" onclick="plusSlides(-1)" class="center">
+	            	</article>
+	            	<div class="slideshow-container">
+	              		<article class="mySlides">
+	                		<a href="port1.html"><img src="images/hacka.png" width="100%" height="100%" class="center"></a>
+	              		</article>
+	              		<article class="mySlides">
+	                		<a href="port3.html"><img src="images/cirque.jpg" width="100%" height="100%" class="center"></a>
+	              		</article>
+	              		<article class="mySlides">
+	                		<a href="port2.html"><img src="images/livro1.jpg" width="100%" height="100%" class="center"></a>
+	              		</article>
+	              		<article class="mySlides">
+	                		<a href="port4.html"><img src="images/desenho.jpg" width="100%" height="100%" class="center"></a>
+	              		</article>
+	            	</div>
+		            <article>
+		            	<img id="seta1" src="PNG/seta1.png" width="100%" height="100%" onclick="plusSlides(1)" class="center">
+		            </article>
+		        </div>
+	        </section>
+	        <hr id="hrmain">
+	        <section id="eventos">
+				<article class="title">
+	        		<p id="p1"> Eventos </p>
+	        		<a href="eventos.html" title="Ver mais" class="center"><p id="p2"> Ver Mais </p></a>
+	        	</article>
+				<article class="images">
+	        		<div class="fotos">
+			            <a href="evento1.html" class="center">
+			    			<img src="images/3.jpg" class="img1" width="100%" height="100%"></a>
+			            <a href="evento2.html" class="center">
+			             	<img src="images/2.jpg" class="img2" width="100%" height="100%"></a>
+			            <a class="center">
+			             	<img src="images/1.jpg" class="img3" width="100%" height="100%s"></a>
+			            <a class="center">
+			             	<img src="images/4.png" class="img4" width="100%" height="100%"></a>
+			            <a class="center">
+			             	<img src="images/5.jpg" class="img5" width="100%" height="100%"></a>
+			            <a class="center">
+			             	<img src="images/6.jpg" class="img6" width="100%" height="100%"></a>
+			            <a class="center">
+			             	<img src="images/7.jpg" class="img7" width="100%" height="100%"></a>
+			            <a class="center">
+			             	<img src="images/8.jpg" class="img8" width="100%" height="100%"></a>
+			            <a class="center" id="imagem">
+			             	<img src="images/10.jpg" class="img9" width="100%" height="100%"></a>
+			            <a class="center" id="imagem">
+			             	<img src="images/5.jpg" class="img10" width="100%" height="100%"></a>
+			            <a class="center" id="imagem">
+			             	<img src="images/1.jpg" class="img11" width="100%" height="100%"></a>
+			            <a class="center" id="imagem">
+			             	<img src="images/9.jpg" class="img12" width="100%" height="100%"></a>
+    				</div>
+	        	</article>
+			</section>
+		</main>
+		<footer>
+			<section class="baixo">
+				<article>
+					<img id="iplfooter" src="PNG/ipl.png" width="100%" height="100%">
+					<div id="divfooter">
+						<div id="nome">
+							<img id="nomeipl" src="PNG/ipleiria.png" width="100%" height="100%">
+						</div>
+						<a href="https://www.ipleiria.pt/estudantes/#encontrar-ipleiria" title="IPLeiria" class="ipl">Site IPLeiria</a>
+					</div>
+				</article>
+				<article>
+					<img id="iplfooter" src="PNG/ipl.png" width="100%" height="100%">
+					<div id="divfooter">
+						<div id="nome">
+							<img id="nomeesad" src="PNG/esad.png" width="100%" height="100%">
+						</div>
+						<a href="https://www.ipleiria.pt/esadcr/" title="ESAD.CR" id="ipl" class="ipl"> Site ESAD.Cr</a>
+					</div>
+				</article>
+			</section>
+			<section class="copy">
+				<p> &copy; Copyright Mariana 2019/2020. Todos os direitos reservados.</p>
+			</section>
+		</footer>
+	</body>
+	<!-- INCLUDE JS/jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script src="js/functions.js">
+	</script>
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		}
+
+		function openNav(){
+		  document.getElementById("sidebarMenu").style.width = "90%";
+		}
+
+		function closeNav(){
+		  document.getElementById("sidebarMenu").style.width = "0%";
+		}
+	</script>
+</html>

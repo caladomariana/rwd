@@ -1,0 +1,187 @@
+@media screen and (max-width:768px){
+
+	main{
+        grid-template-rows: repeat(2, auto);
+    }
+	
+	h1{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #evento{
+        background-color: white;
+        border: 1.5px solid #801624;
+        border-radius: 10px;
+        padding: 30px 20px 30px 20px;
+    }
+
+    #ovni{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: 1fr;
+        
+    }
+
+    #cartaz{
+        width: 150px;
+        height: auto;
+        border: 1.5px solid #801624;
+    }
+
+    h2{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 25px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #caixa{
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        padding-left: 10px;
+    }
+
+    #ovni p{
+        font-size: 11px;
+        margin-left: 10px;
+        text-align: justify;
+        line-height: 13px;
+    }
+
+    .texto p{
+        font-size: 11px;
+        text-align: justify;
+        line-height: 13px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    main{
+        grid-template-rows: repeat(2, auto);
+    }
+    
+    h1{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 45px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #evento{
+        background-color: white;
+        border: 2px solid #801624;
+        border-radius: 10px;
+        padding: 40px 30px 40px 30px;
+    }
+
+    #ovni{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: 1fr;
+    }
+
+    #cartaz{
+        width: 300px;
+        height: auto;
+        border: 1.5px solid #801624;
+    }
+
+    h2{
+        margin-top: 20px;
+        font-size: 35px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #caixa{
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+    }
+
+    #caixa p{
+        font-size: 22px;
+        text-align: justify;
+        line-height: 24px;
+        margin-left: 10px;
+    }
+
+    .texto p{
+        font-size: 22px;
+        text-align: justify;
+        line-height: 24px;
+        margin-top: 23px;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    main{
+        grid-template-rows: repeat(2, auto);
+    }
+    
+    h1{
+        margin-top: 50px;
+        margin-bottom: 60px;
+        font-size: 60px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #evento{
+        background-color: white;
+        border: 2px solid #801624;
+        border-radius: 10px;
+        padding: 50px 50px 50px 50px;
+    }
+
+    #ovni{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: 1fr;
+    }
+
+    #cartaz{
+        width: 300px;
+        height: auto;
+        border: 2px solid #801624;
+    }
+
+    h2{
+        margin-top: 30px;
+        font-size: 50px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #caixa{
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        margin-left: 30px;
+    }
+
+    #caixa p{
+        font-size: 35px;
+        text-align: justify;
+        line-height: 37px;
+    }
+
+    .texto{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .texto p{
+        font-size: 35px;
+        text-align: justify;
+        line-height: 37px;
+        margin-top: 30px;
+    }
+}

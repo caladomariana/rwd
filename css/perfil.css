@@ -1,0 +1,252 @@
+@media screen and (max-width:768px){
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    #ident{
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        border: 1.5px solid #801624;
+        border-radius: 10px;
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    #first{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 15px;
+    }
+
+    #first img{
+        width: 100px;
+    }
+
+    #first p{
+        font-size: 12px;
+        text-align: left;
+        line-height: 14px;
+    }
+
+    #info{
+        margin-top: 35px;
+    }
+
+    #texto p{
+        font-size: 12px;
+        text-align: left;
+        line-height: 14px;
+    }
+
+    #port{
+        height: 250px;
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        border: 1.5px solid #801624;
+        border-radius: 10px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    #port a{
+        text-decoration: none;
+    }
+
+    h2{
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #slideshow{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+    }
+
+    .mySlides{
+        width: 120px;
+        height: auto;
+    }
+
+    #seta1{
+        width: auto;
+        height: 20px;
+    }
+
+    #seta2{
+        width: auto;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    #ident{
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        border: 2px solid #801624;
+        border-radius: 10px;
+        background-color: white;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    #first{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        margin-bottom: 20px;
+    }
+
+    #first img{
+        width: 150px;
+    }
+
+    #first p{
+        font-size: 15px;
+        text-align: left;
+        line-height: 18px;
+    }
+
+    #info{
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    #texto p{
+        font-size: 15px;
+        text-align: left;
+        line-height: 20px;
+    }
+
+    #port{
+        height: 330px;
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        border: 2px solid #801624;
+        border-radius: 10px;
+        background-color: white;
+        padding: 30px;
+    }
+
+    #port a{
+        text-decoration: none;
+    }
+
+    h2{
+        margin-bottom: 30px;
+        font-size: 25px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #slideshow{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+    }
+
+    .mySlides{
+        width: 150px;
+        height: auto;
+    }
+
+    #seta1{
+        width: auto;
+        height: 20px;
+    }
+
+    #seta2{
+        width: auto;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    #ident{
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        border: 2px solid #801624;
+        border-radius: 10px;
+        background-color: white;
+        padding: 50px;
+        margin-bottom: 30px;
+    }
+
+    #first{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        margin-bottom: 30px;
+    }
+
+    #first img{
+        width: 230px;
+    }
+
+    #first p{
+        font-size: 20px;
+        text-align: left;
+        line-height: 24px;
+    }
+
+    #info{
+        margin-top: 90px;
+    }
+
+    #texto p{
+        font-size: 20px;
+        text-align: left;
+        line-height: 28px;
+    }
+
+    #port{
+        height: 420px;
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        border: 2px solid #801624;
+        border-radius: 10px;
+        background-color: white;
+        padding: 40px;
+    }
+
+    #port a{
+        text-decoration: none;
+    }
+
+    h2{
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: #801624;
+        text-align: center;
+    }
+
+    #slideshow{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+    }
+
+    .mySlides{
+        width: 200px;
+        height: auto;
+    }
+
+    #seta1{
+        width: auto;
+        height: 30px;
+    }
+
+    #seta2{
+        width: auto;
+        height: 30px;
+    }
+}

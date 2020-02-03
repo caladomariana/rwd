@@ -1,0 +1,365 @@
+@media screen and (max-width:768px){
+
+    body{
+        grid-template-rows: repeat(2, auto);
+    }
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    .descricao{
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        margin-bottom: 30px;
+    }
+
+    #logo1{
+        width: auto;
+        height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;  
+    }
+
+    #caixatexto{
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+    }
+
+    #title{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #801624;
+        text-align: left;
+        border-bottom: 1.5px solid #801624;
+    }
+
+    .texto{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: black;
+        text-align: left;
+    }
+
+    #separa{
+        color: #801624;
+        width: 100%;
+        height: 0;
+        border-top: 2px dashed;
+        border-bottom: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #curso{
+        margin-bottom: 40px;
+    }
+
+    h2{
+        width: 50%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 30px;
+        color: #801624;
+        text-align: left;
+    }
+
+    .dropbtn {
+        background-color: white;
+        color: black;
+        padding: 10px 15px;
+        font-size: 15px;
+        border: 2px solid #801624;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .dropdown1 {
+        width: 100%;
+        z-index: -1;
+    }
+
+    .dropdown-content{
+        display: none;
+        background-color: #edaa1e;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .dropdown-content p{
+        font-size: 15px;
+        margin: 15px;
+    }
+
+    .show {
+        display: block;
+    }
+
+    #semestre{
+        border-top: 1px dashed #801624;
+        border-bottom: 0px;
+    }
+
+    .mais{
+        margin-bottom: 30px;
+    }
+
+    #esadsite{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    body{
+        grid-template-rows: repeat(2, auto);
+    }
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    .descricao{
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        margin-bottom: 30px;
+    }
+
+    #logo1{
+        width: auto;
+        height: 80px;
+        margin-top: 30px;
+        margin-bottom: 30px;  
+    }
+
+    #caixatexto{
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+    }
+
+    #title{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 30px;
+        color: #801624;
+        text-align: left;
+        border-bottom: 2px solid #801624;
+    }
+
+    .texto{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: black;
+        text-align: left;
+    }
+
+    #separa{
+        color: #801624;
+        width: 100%;
+        height: 0;
+        border-top: 3px dashed;
+        border-bottom: 0px;
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+
+    #curso{
+        margin-bottom: 40px;
+    }
+
+    h2{
+        width: 50%;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        font-size: 40px;
+        color: #801624;
+        text-align: left;
+    }
+
+    .dropbtn{
+        background-color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        font-size: 20px;
+        border: 2px solid #801624;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .dropdown1 {
+        width: 100%;
+        z-index: -1;
+    }
+
+    .dropdown-content{
+        display: none;
+        background-color: #edaa1e;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .dropdown-content p{
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .show {
+        display: block;
+    }
+
+    #semestre{
+        border-top: 1.5px dashed #801624;
+        border-bottom: 0px;
+    }
+
+    .mais{
+        margin-bottom: 40px;
+    }
+
+    .mais a{
+        font-size: 20px;
+    }
+
+    #esadsite{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    body{
+        grid-template-rows: repeat(2, auto);
+    }
+
+    main{
+        grid-template-rows: repeat(3,auto);
+    }
+
+    .descricao{
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        margin-bottom: 50px;
+    }
+
+    #logo1{
+        width: auto;
+        height: 90px;
+        margin-top: 50px;
+        margin-bottom: 50px;  
+    }
+
+    #caixatexto{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #title{
+        margin-bottom: 40px;
+        margin-top: 25px;
+        font-size: 25px;
+        color: #801624;
+        text-align: left;
+        border-bottom: 2.5px solid #801624;
+    }
+
+    .texto{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 22px;
+        color: black;
+        text-align: left;
+    }
+
+    #separa{
+        color: #801624;
+        width: 100%;
+        height: 0;
+        border-top: 4px dashed;
+        border-bottom: 0px;
+        margin-top: 35px;
+        margin-bottom: 55px;
+    }
+
+    #curso{
+        margin-bottom: 40px;
+    }
+
+    h2{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        font-size: 50px;
+        color: #801624;
+        text-align: center;
+    }
+
+    .dropbtn{
+        background-color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        font-size: 30px;
+        border: 2px solid #801624;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 50%;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 25%;
+
+    }
+
+    .dropdown1{
+        width: 100%;
+        z-index: -1;
+    }
+
+    .dropdown-content{
+        width: 50%;
+        margin-left: 25%;
+        display: none;
+        background-color: #edaa1e;
+        border: 2px solid #801624;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .dropdown-content p{
+        font-size: 25px;
+        margin: 20px;
+        color: black;
+    }
+
+    .show {
+        display: block;
+    }
+
+    #semestre{
+        border-top: 2.5px dashed #801624;
+        border-bottom: 0px;
+    }
+
+    .mais{
+        margin-bottom: 70px;
+    }
+
+    .mais a{
+        font-size: 25px;
+        color: black;
+    }
+
+    #esadsite{
+        margin-left: 180px;
+    }
+}
